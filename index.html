@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <title>Valentine</title>
+</head>
+
+<body>
+  <div class="container">
+    <div class="mainprompt">
+      <img class="image" src="images/catflower.jpg" />
+
+      <h1 class="hh" id="name">Hola Bebe I have a question</h1>
+      <p class="pp" id="question">Will you be my Valentine?</p>
+
+      <div class="buttons">
+        <button id="no-button" onclick="showMessage('No')">No</button>
+        <button id="yesButton" onclick="showMessage('Yes')">Yes</button>
+      </div>
+
+      <div class="hidden-message" id="no-message">
+        <p>Choose wisely or else loco is going to have a single father.</p>
+      </div>
+
+      <div class="hidden-message" id="yes-message">
+        <p>Yeah I know. I’m just like that. Okay see u Feb 14th princess.</p>
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
